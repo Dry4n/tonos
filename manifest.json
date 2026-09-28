@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Tonos — paletas HEX",
+  "version": "1.0.0",
+  "description": "Doce familias de color. Copia un tono HEX en un clic.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tonos-colores@dry4n.github.io",
+      "strict_min_version": "109.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "permissions": [
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_title": "Tonos",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    }
+  },
+  "icons": {
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}
