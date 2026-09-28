@@ -1,13 +1,11 @@
 # Tonos
 
-Selector de paletas HEX para diseño web: doce familias, diez tonalidades (50–900) por familia y copia al portapapeles con un clic.
+Una herramienta sencilla para elegir colores al diseñar webs. Incluye doce familias, diez tonalidades (50–900) por familia y copia el código HEX con un clic.
 
 ## Web
 
-Sitio estático, sin dependencias ni compilación. Abre `index.html` mediante un servidor local o publícalo desde la raíz del repositorio con GitHub Pages. Las familias se abren en la misma página mediante el fragmento de URL.
+Esta carpeta contiene la versión web estática. No necesita dependencias ni compilación: abre `index.html` mediante un servidor local o publícalo desde la raíz del repositorio. Las familias se abren en la misma página mediante el fragmento de URL.
 
 ## Extensión de Firefox
 
-El código de la extensión está en `manifest.json`, `popup.html`, `popup.css`, `popup.js` e `icons/`. El popup funciona sin conexión y contiene las mismas paletas que la web. Para generar el ZIP, comprime **solo estos archivos y la carpeta `icons/`**, con `manifest.json` en la raíz.
-
-Para probarla temporalmente, entra en `about:debugging` → **Este Firefox** → **Cargar complemento temporal** y selecciona `manifest.json` o el ZIP. La instalación temporal desaparece al reiniciar Firefox. Para instalarla de forma permanente en Firefox normal hay que enviarla a Mozilla para firma.
+Tonos también tiene una extensión para Firefox con las mismas paletas. El paquete de la extensión se distribuye por separado y sus archivos no forman parte de este repositorio. Cuando Mozilla la acepte y esté publicada, añadiremos aquí el enlace a Firefox Add-ons.
